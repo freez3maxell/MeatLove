@@ -17,12 +17,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    
     .main-footer {
-    margin-top:30px;
-	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
-    font-size:18px;
-}
+        margin-top:30px;
+        text-align: center;
+        padding: 2em 0;
+        background: #d9e4ea;
+        font-size:18px;
+    }
 </style>

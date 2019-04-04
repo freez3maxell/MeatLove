@@ -38,6 +38,8 @@ export default {
 </script>
 
 <style scoped>
+
+    
     
     ul{
         background:#d9e4ea;
@@ -54,13 +56,7 @@ export default {
         margin-top:10px;
     }
 
-    .nav, .nav-item{
     
-    }
-
-    .nav:active, .nav-item:active {
-    
-}
     
     
     

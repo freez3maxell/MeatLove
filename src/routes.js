@@ -9,14 +9,17 @@ export const routes = [
         path: '',
         component: Home,
     },
+
     { 
         path: '/about',
         component: About,
     },
+
     { 
         path: '/history',
         component: History,
     },
+
     { 
         path: '/cuts',
         component: Cuts,
@@ -26,8 +29,10 @@ export const routes = [
         path: '/breeds',
         component: Breeds,
     },
+
     {
         path: '*',
         redirect: "/"
     },
+    
 ];

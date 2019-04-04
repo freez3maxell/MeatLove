@@ -43,8 +43,8 @@ export default {
     
     #breeds{
         padding-top:20px;
-        
     }
+
      h3{
         text-align: center;
     }
@@ -65,7 +65,5 @@ export default {
         margin-left:-20px;
     }
     
-    
-    
-    
+
 </style>

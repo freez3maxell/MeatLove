@@ -30,9 +30,11 @@ export default {
     #history{
         margin-top:20px;
     }
+
      h3{
         text-align: center;
     }
+    
     .images{
         margin:auto;
         display:flex;

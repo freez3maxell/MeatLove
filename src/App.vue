@@ -26,7 +26,7 @@
 import AppHeader from './components/shared/AppHeader.vue';
 import AppFooter from './components/shared/AppFooter.vue';
 
-// Pages
+
 
 export default {
   name: 'app',
@@ -48,12 +48,9 @@ export default {
 <style lang="scss">
 
   *{
-    cursor: url("https://i.ibb.co/zQ0sXsh/but2.png");
+    cursor: url("https://i.ibb.co/Gnb7W7v/but2.png");
   }
 
-  
-  
-  
   .prob{
     text-shadow: 3px 2px black;
     font-size:3.5em;
@@ -72,7 +69,6 @@ export default {
       margin: 10px;
   }
   
- 
   .bounce-enter-active {
     animation: bounce-in .3s linear;
     
@@ -80,45 +76,55 @@ export default {
   .bounce-leave-active {
     animation: bounce-in .3s linear reverse;
   }
+
   .bounce-leave-to  {
-  opacity: 0.5;
-}
+  opacity: 0.5; 
+  }
+
   @keyframes bounce-in {
     0% {
       transform: scale(0);
     }
+
     10% {
       transform: scale(0.1);
     }
+
     20% {
       transform: scale(0.2);
     }
+
     30% {
       transform: scale(0.4);
     }
+
     40% {
       transform: scale(0.5);
     }
+
     50% {
       transform: scale(0.6);
     }
+
     60% {
       transform: scale(0.8);
     }
+
     70% {
       transform: scale(0.9);
     }
+
     80% {
       transform: scale(1);
     }
+    
     90% {
       transform: scale(1.1);
     }
+
     100% {
       transform: scale(1);
     }
   }
-
-
   
 </style>

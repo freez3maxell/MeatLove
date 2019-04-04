@@ -25,19 +25,23 @@ export default {
     #cuts{
         margin-top:20px;
     }
-     h3{
+
+    h3{
         text-align: center;
     }
+
     img {
         height:400px;
         width:327px;
     }
+
     .images{
         display:flex;
         margin:auto;
         justify-content: center;
         padding-bottom:25px;
     }
+
     .link{
         
         display:flex;
@@ -47,6 +51,7 @@ export default {
         padding-top:10px;
         
     }
+
     .link:hover{
         text-transform: uppercase;
     }
